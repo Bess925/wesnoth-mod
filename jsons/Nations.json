@@ -1,12 +1,44 @@
 {
-  "MyGreatCiv": {
-    "name": "My Great Civilization",
-    "adjective": "Great",
-    "startBias": [],
-    "uniquePowers": ["UniquePower1"],
-    "uniqueUnits": ["GreatWarrior"],
-    "uniqueBuildings": ["GreatTemple"],
-    "preferredVictoryType": "Cultural",
-    "cityNames": ["Great City 1", "Great City 2", "Great City 3"]
+  "TheGreatCiv": {
+    "name": "The Great Civilization",
+    "leaderName": "Alexander the Great",
+    "adjective": ["Great"],
+    "startBias": ["Favor [Grassland]"],
+    "preferredVictoryType": "Military",
+    "personality": "Alexander",
+
+    "startIntroPart1": "Hail, Alexander the Great, mighty leader of The Great Civilization! Known throughout history as one of the greatest conquerors, your campaigns changed the face of the ancient world. From Macedonia, you swept through Persia, Egypt, and beyond, forging an empire that stretched across continents. After your death, your empire split, yet your legacy continues to inspire.",
+    "startIntroPart2": "Alexander, will your Great Civilization expand its reach once more, claiming victory over all who stand in its way? The world awaits your command!",
+
+    "declaringWar": "Prepare yourself! The Great Civilization marches to war!",
+    "attacked": "You would dare challenge The Great Civilization? Bold move.",
+    "defeated": "It seems my reach has finally met its limit. Farewell, worthy foe.",
+    "introduction": "Greetings, stranger. Do you know who you face?",
+
+    "neutralHello": "Well met, traveler.",
+    "hateHello": "What is it now? State your purpose.",
+
+    "tradeRequest": "Perhaps you have something of value to offer?",
+
+    "outerColor": [85,107,47],
+    "innerColor": [192,192,192],
+    "favoredReligion": "Hellenism",
+    "uniqueName": "Conqueror's Legacy",
+    "uniques": [
+      "Free [Great General] appears <upon conquering a city>",
+      "[Units] have [+15]% combat strength when attacking cities"
+    ],
+
+    "cities": [
+      "Alexandria", "Pella", "Ecbatana", "Persepolis", "Susa", "Babylon",
+      "Memphis", "Jerusalem", "Cyropolis", "Gaza", "Tarsus", "Arbela",
+      "Maracanda", "Bactra", "Taxila", "Petra", "Thebes", "Rhodes",
+      "Byblos", "Sidon", "Damascus", "Tyre", "Antioch", "Seleucia"
+    ],
+
+    "spyNames": [
+      "Hephaestion", "Cleitus", "Parmenion", "Nearchus", "Antigonus", 
+      "Ptolemy", "Cassander", "Lysimachus", "Eumenes", "Craterus"
+    ]
   }
 }
