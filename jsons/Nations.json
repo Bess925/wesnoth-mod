@@ -3,6 +3,7 @@
     "name": "The Great Civilization",
     "leaderName": "Alexander the Great",
     "adjective": ["Great"],
+    "icon": "Aliens",
     "startBias": ["Favor [Grassland]"],
     "preferredVictoryType": "Military",
     "personality": "Alexander",
